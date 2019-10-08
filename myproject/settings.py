@@ -26,7 +26,7 @@ SECRET_KEY = 'm*&o-098x%fpx+=vr@-13meu+ugca4v0-_gjog1i7yn--!!bxr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'slgservices.herokuapp.com']
 
 
 # Application definition
@@ -145,7 +145,6 @@ EMAIL_PORT = 587
 EMAIL_SUBJECT_PREFIX = "[LalithaGroup Customer]"
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-
 ADMINS = [
     ('srilalithagroupservices', 'srilalithagroupservices@gmail.com'),
 ]
