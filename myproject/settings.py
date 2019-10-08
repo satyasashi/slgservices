@@ -134,7 +134,6 @@ STATICFILES_DIRS = [
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-WHITENOISE_USE_FINDERS = True
 
 # EMAIL SETTINGS
 SERVER_EMAIL = 'srilalithagroupservices@gmail.com'
